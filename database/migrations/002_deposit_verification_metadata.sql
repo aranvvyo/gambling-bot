@@ -1,0 +1,3 @@
+ALTER TABLE deposits ADD COLUMN verified_amount INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE deposits ADD COLUMN expires_at TEXT;
+ALTER TABLE deposits ADD COLUMN invoice_url TEXT NOT NULL DEFAULT '';
